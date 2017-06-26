@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     publicPath: ".",
-    path: "./sample/dist",
+    path: path.resolve("./sample/dist"),
     filename: "[name].js",
     libraryTarget: "umd"
   },
